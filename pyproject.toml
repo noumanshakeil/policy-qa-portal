@@ -1,0 +1,13 @@
+[project]
+name = "policy-qa-portal"
+version = "2.0.0"
+description = "Internal policy Q&A portal — ask HR/IT questions and get grounded answers with source sections and category filters."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
